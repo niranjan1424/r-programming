@@ -1,0 +1,8 @@
+a=array(1:9,dim=c(3,3))
+b=array(10:18,dim=c(3,3))
+c=array(19:27,dim=c(3,3))
+print(a)
+print(b)
+print(c)
+s =rbind(a[1,],b[1,],c[1,])
+print(s)
